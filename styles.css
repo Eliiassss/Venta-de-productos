@@ -1,0 +1,166 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #767243;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+}
+
+h1 {
+  color: white;
+  font-size: 1.8em;
+  margin: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  margin: 0 15px;
+  font-size: 18px;
+}
+
+main {
+  padding: 20px;
+}
+
+.inicio {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+h2 {
+  color: #090505;
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.introduccion {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.productos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: stretch;
+}
+
+.producto {
+  width: 300px;
+  margin: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.producto:hover {
+  transform: scale(1.05);
+}
+.producto img {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.producto h3 {
+  margin-top: 10px;
+  color: #333;
+}
+
+.producto p {
+  color: #666;
+}
+
+.call-to-action {
+  background-color: #767243;
+  color: white;
+  padding: 4px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.call-to-action h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.call-to-action a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+#formularioCrearProducto {
+  display: none;
+  margin-top: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+#formularioCrearProducto label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+#formularioCrearProducto input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+#formularioCrearProducto button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#formularioCrearProducto button:hover {
+  background-color: #555;
+}
+.call-to-action button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.call-to-action button:hover {
+  background-color: #555;
+}

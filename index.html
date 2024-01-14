@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Joyas Avellaneda</title>
+  <link rel="icon" href="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTwi6UBrvcTcoHeSb6tNjeCIcCrbVrjDlu4ZjyC9KiqAIuCMUO1KrRrtElu9g9Z" type="image/png">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Añade estilos específicos para el botón */
+    #crearProductoBtn {
+      background-color: #3498db; /* Color celeste */
+      color: #fff; /* Texto blanco */
+      padding: 10px 20px; /* Espaciado interno */
+      border: none; /* Sin borde */
+      border-radius: 5px; /* Esquinas redondeadas */
+      cursor: pointer; /* Cambia el cursor al pasar el ratón */
+      display: block; /* Hace que el botón ocupe el ancho completo */
+      margin: 20px auto; /* Centra el botón horizontalmente */
+      font-size: 16px; /* Tamaño del texto */
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">
+      <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTwi6UBrvcTcoHeSb6tNjeCIcCrbVrjDlu4ZjyC9KiqAIuCMUO1KrRrtElu9g9Z" alt="Nuevo Logo de la tienda">
+      <h1>Joyas Avellaneda</h1>
+    </div>
+    <nav>
+      <a href="#inicio">Inicio</a>
+      <a href="#muñecos">Productos</a>
+      <a href="https://articulo.mercadolibre.com.ar/MLA-924201758-oso-peluche-gigante-13-metros-enorme-marron-suave-abrazable-_JM" target="_blank">Contacto</a>
+      <a href="#joyas">Haz tu joya personalizada</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio" class="inicio">
+      <div class="introduccion">
+        <h2>Bienvenido a Joyas Avellaneda</h2>
+        <p>Descubre la elegancia de nuestras joyas. Encuentra piezas únicas y personalizadas que complementarán tu estilo.</p>
+      </div>
+    </section>
+
+    <section id="muñecos" class="productos" id="productosSection">
+      <!-- La sección de productos se llenará con JavaScript -->
+    </section>
+
+    <section id="joyas" class="call-to-action">
+      <h2>Haz tu joya personalizada</h2>
+      <a href="https://postimg.cc/zHYgBFTF/6f02af48" target="_blank">Explorar Joyas Personalizadas</a>
+    </section>
+
+    <div id="formularioCrearProducto">
+      <form id="agregarProductoForm">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" required>
+
+        <label for="descripcion">Descripción:</label>
+        <input type="text" id="descripcion" required>
+
+        <label for="precio">Precio:</label>
+        <input type="text" id="precio" required>
+
+        <label for="imagen">URL de imagen:</label>
+        <input type="url" id="imagen" required>
+
+        <button type="submit">Agregar Producto</button>
+      </form>
+    </div>
+
+    <button id="crearProductoBtn">Crear nuevo producto</button>
+  </main>
+
+  <footer>
+    <p>© 2024 Joyas Avellaneda</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
